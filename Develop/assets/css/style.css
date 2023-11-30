@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #2589bd;
+}
+/* change of font family throughout the CSS stylesheet */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* Change the .header div tags to a nav tag to clean up the .header div navigation tags that have been replaced, change of the font family  */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* Change the .header div tags to a nav tag to clean up the .header div navigation tags that have been replaced  */
+nav ul {
+    list-style-type: none;
+}
+
+/* Change the .header div tags to a nav tag to clean up the .header div navigation tags that have been replaced  */
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* Change the .header a div tags to a nav a tag to clean up the .header div navigation tags that have been replaced,
+I have also added in font-weight, padding, the backgroud colour as it will match with the rest of the header colour scheme. 
+change of font family throughout the CSS stylesheet  */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#2a607c;
+    
+}
+
+nav a:hover {
+    background-color: #1a4560; /* Adjust hover color to create better user experience and provide a visual feedback. Doing this will increase the user's ability to navigate and interact with a website  */
+}
+
+/* increase the font size */
+p1 {
+    font-size: 20px;
+}
+p2 {
+    font-size: 16px;
+}
+
+/* I have combined the background-image, background-size and position into the backgroud property for better readability */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background: url(../images/digital-marketing-meeting.jpg) center/cover;
+    
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Used flexbox to make the layout more responsive and all the columns to//// change of font family throughout the CSS stylesheet  */
+.benefits {
+    margin-right: 20px;
+    padding: 25px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 90%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#0072bb;
+}
+
+.benefits article {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Content Section Styles. Consolidating the below sections for SEO, ORM, SMM, consolidating the IMG attibutes to make a CSS that is better to maintain 
+and easier to read */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content article img {
+    max-height: 200px;
+}
+
+.content article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+}
+
+.signup-form,
+.contact {
+    width: 48%; /* Adjusted width for smaller and streamlined sections */
+}
+
+.signup-form {
+    margin-bottom: 20px;
+}
+
+.signup-form h2,
+.contact h2 {
+    margin-bottom: 10px;
+}
+
+.signup-form label,
+.contact a {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.signup-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
