@@ -149,46 +149,5 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f2f2f2;
-    margin: 0 auto;
-}
-
-.signup-form,
-.contact {
-    width: 48%; /* Adjusted width for smaller and streamlined sections */
-}
-
-.signup-form {
-    margin-bottom: 20px;
-}
-
-.signup-form h2,
-.contact h2 {
-    margin-bottom: 10px;
-}
-
-.signup-form label,
-.contact a {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-.signup-form input {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-bottom: 15px;
-}
-
-.signup-form input[type="submit"] {
-    background-color: #4CAF50;
-    color: #fff;
-    cursor: pointer;
-}
-
-.contact a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    background-color: #0072bb;
 }
